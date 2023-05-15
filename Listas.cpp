@@ -22,13 +22,13 @@ int main()
     int dato;
     char rpt;
 
-    cout << "Ingrese un numero (0 para mostrar lista):";
+    cout << "Ingrese un numero (0 para mostrar lista): ";
     cin >> dato;
 
     while (dato != 0)
     {
         insertarLista(lista, dato);
-        cout << "\nIngrese un numero (0 para mostrar lista):";
+        cout << "\nIngrese un numero (0 para mostrar lista): ";
         cin >> dato;
     }
 
